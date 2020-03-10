@@ -8,7 +8,7 @@ const Navbar = () => {
       <a to="#" className="brand-logo">MusiciansConnect</a>
       <ul id="nav-mobile" className="right hide-on-med-and-down">
         <li><NavLink to="sass.html">Home</NavLink></li>
-        <li><NavLink to="badges.html">Artists Corner</NavLink></li>
+        <li><NavLink to="/Artist">Artists Corner</NavLink></li>
         <li><NavLink to="collapsible.html">Gigs</NavLink></li>
         <li><NavLink to="collapsible.html">Community</NavLink></li>
          </ul>
