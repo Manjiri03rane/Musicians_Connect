@@ -15,19 +15,18 @@ import Home2 from './Components/Home2';
 
 function App() {
   return (
+    <Switch>
     <div className="App" >
-  <Navbar />
-  <Home />
-  
-   {/* <Switch>
+    <Navbar />
     <Route exact path='/' component={Home} />
     <Route path='/Artist' component={Artist} />
     <Route path='/Gigs' component={Gigs} />
     <Route path='/Community' component={Community}/>
-    </Switch> */}
+    </div>
+    </Switch> 
     
       
-    </div>
+    
   );
 }
 
