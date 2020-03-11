@@ -139,6 +139,10 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
   width: 120px;
   height: 120px;
   border-radius: 50%;
+  border-width: medium;
+  border-color: #253494;
+  border-style: solid;
+  
 }
 
 .card {
@@ -152,6 +156,16 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
   border-radius: 10px;
   border-width: thick;
   border-color: #253494;
+  border-style: solid;
+}
+
+img {
+  border-style: solid;
+  border-width: thick;
+  border-color: #253494;
+  border-radius: 10px;
+  height: 200px;
+  width: 335px;
 }
 
 
