@@ -68,7 +68,7 @@
   left: auto;
   right: auto;
   background-color: #C6DBEF;
-  height: 1000px;
+  height: 1500px;
 }
 
 .row .col.s3 {
@@ -77,8 +77,10 @@
   left: auto;
   right: auto;
   background-color: #081D58;
-  height: 1000px;
+  height: 1500px;
 }
+
+
 
 h5 {
   font-size: 1.64rem;
@@ -113,6 +115,43 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
   transition: border .3s, -webkit-box-shadow .3s;
   transition: box-shadow .3s, border .3s;
   transition: box-shadow .3s, border .3s, -webkit-box-shadow .3s;
+}
+
+.card .card-image img {
+  display: block;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.circle {
+  display: block;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.card {
+  position: relative;
+  margin: .5rem 0 1rem 0;
+  background-color: #fff;
+  -webkit-transition: -webkit-box-shadow .25s;
+  transition: -webkit-box-shadow .25s;
+  transition: box-shadow .25s;
+  transition: box-shadow .25s, -webkit-box-shadow .25s;
+  border-radius: 10px;
+  border-width: thick;
+  border-color: #253494;
 }
 
 

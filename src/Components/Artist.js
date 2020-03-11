@@ -1,7 +1,8 @@
 import React from 'react';
+import Joey from './img/Joey.jpg';
 
 const Artist = () => {
-    return(
+     return(
         <div >
             <div class="row">
                  <div class="col s3"> 
@@ -20,24 +21,299 @@ const Artist = () => {
                  </div>
 
                  <div class="col s9"> 
-                 <h2>Artists Corner</h2>  
+                 <h2>Artists Corner</h2> 
+                 <div class="row">
+                   <div class="col s1">1</div>
+                   <div class="col s1">2</div>
+                   <div class="col s1">3</div>
+                   <div class="col s1">4</div>
+                   <div class="col s1">5</div>
+                   <div class="col s1">6</div>
+                   <div class="col s1">7</div>
+                   <div class="col s1">8</div>
+                   <div class="col s1">9</div>
+                   <div class="col s1">10</div>
+                   <div class="col s1">11</div>
+                   <div class="col s1">12</div>
+                 </div> 
                  
-                 <div class="col s12 m6">
-      <div class="card">
-        <div class="card-image">
-          <img src="images/sample-1.jpg" alt="Avatar"/>
-          <span class="card-title">Card Title</span>
-          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
-        </div>
-        <div class="card-content">
-          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-        </div>
-      </div>
-    </div>     
-                 </div>
+                 <div class="col s12 m4">
+                   <div class="card">
+
+                      <div class="row">
+                        <div class="col l5"><img src={Joey} alt="Avatar" class="circle"/></div>
+                        <div class="col s5">
+                          <div class="row">
+                            <h4 class="black-text">Joey Tribbiani</h4>
+                            <h5 class="black-text">Musician/ Songwriter</h5>
+                          </div>
+                        </div>
+                      </div>
+ 
+                      <div class="row">
+                          <div class="col s2"><i class="small material-icons">play_arrow</i></div>
+                          <div class="col s10"><h6 class="black-text">Drummer</h6></div>
+                       </div>
+
+                      <div class="row">
+                          <div class="col s2"><i class="small material-icons">location_on</i></div>
+                          <div class="col s10"><h6 class="black-text">Freiburg</h6></div>
+                      </div>
+
+                      <div class="row">
+                          <div class="col s2"><i class="small material-icons">music_note</i></div>
+                          <div class="col s10"><h6 class="black-text">Blues, Classic Rock</h6></div>
+                      </div>
+                  </div>
+                 </div>     
+
       
-             </div>
-    
+                 <div class="col s12 m4">
+                   <div class="card">
+      
+                      <div class="row">
+                         <div class="col l5"><img src={Joey} alt="Avatar" class="circle"/></div>
+                         <div class="col s5">
+                           <div class="row">
+                              <h4 class="black-text">Joey Tribbiani</h4>
+                              <h5 class="black-text">Musician/ Songwriter</h5>
+                           </div>
+                         </div>
+                      </div>
+ 
+                      <div class="row">
+                         <div class="col s2"><i class="small material-icons">play_arrow</i></div>
+                         <div class="col s10"><h6 class="black-text">Drummer</h6></div>
+                      </div>
+
+                      <div class="row">
+                         <div class="col s2"><i class="small material-icons">location_on</i></div>
+                         <div class="col s10"><h6 class="black-text">Freiburg</h6></div>
+                      </div>
+
+                      <div class="row">
+                         <div class="col s2"><i class="small material-icons">music_note</i></div>
+                         <div class="col s10"><h6 class="black-text">Blues, Classic Rock</h6></div>
+                      </div>
+                   </div>
+                 </div> 
+
+                 <div class="col s12 m4">
+                   <div class="card">
+      
+                      <div class="row">
+                         <div class="col l5"><img src={Joey} alt="Avatar" class="circle"/></div>
+                         <div class="col s5">
+                            <div class="row">
+                               <h4 class="black-text">Joey Tribbiani</h4>
+                               <h5 class="black-text">Musician/ Songwriter</h5>
+                            </div>
+                         </div>
+                      </div>
+ 
+                      <div class="row">
+                         <div class="col s2"><i class="small material-icons">play_arrow</i></div>
+                         <div class="col s10"><h6 class="black-text">Drummer</h6></div>
+                      </div>
+
+                      <div class="row">
+                         <div class="col s2"><i class="small material-icons">location_on</i></div>
+                         <div class="col s10"><h6 class="black-text">Freiburg</h6></div>
+                      </div>
+
+                      <div class="row">
+                         <div class="col s2"><i class="small material-icons">music_note</i></div>
+                         <div class="col s10"><h6 class="black-text">Blues, Classic Rock</h6></div>
+                      </div>
+                   </div>
+                 </div> 
+
+                 <div class="col s12 m4">
+                   <div class="card">
+
+                      <div class="row">
+                        <div class="col l5"><img src={Joey} alt="Avatar" class="circle"/></div>
+                        <div class="col s5">
+                          <div class="row">
+                            <h4 class="black-text">Joey Tribbiani</h4>
+                            <h5 class="black-text">Musician/ Songwriter</h5>
+                          </div>
+                        </div>
+                      </div>
+ 
+                      <div class="row">
+                          <div class="col s2"><i class="small material-icons">play_arrow</i></div>
+                          <div class="col s10"><h6 class="black-text">Drummer</h6></div>
+                       </div>
+
+                      <div class="row">
+                          <div class="col s2"><i class="small material-icons">location_on</i></div>
+                          <div class="col s10"><h6 class="black-text">Freiburg</h6></div>
+                      </div>
+
+                      <div class="row">
+                          <div class="col s2"><i class="small material-icons">music_note</i></div>
+                          <div class="col s10"><h6 class="black-text">Blues, Classic Rock</h6></div>
+                      </div>
+                  </div>
+                 </div>     
+
+      
+                 <div class="col s12 m4">
+                   <div class="card">
+      
+                      <div class="row">
+                         <div class="col l5"><img src={Joey} alt="Avatar" class="circle"/></div>
+                         <div class="col s5">
+                           <div class="row">
+                              <h4 class="black-text">Joey Tribbiani</h4>
+                              <h5 class="black-text">Musician/ Songwriter</h5>
+                           </div>
+                         </div>
+                      </div>
+ 
+                      <div class="row">
+                         <div class="col s2"><i class="small material-icons">play_arrow</i></div>
+                         <div class="col s10"><h6 class="black-text">Drummer</h6></div>
+                      </div>
+
+                      <div class="row">
+                         <div class="col s2"><i class="small material-icons">location_on</i></div>
+                         <div class="col s10"><h6 class="black-text">Freiburg</h6></div>
+                      </div>
+
+                      <div class="row">
+                         <div class="col s2"><i class="small material-icons">music_note</i></div>
+                         <div class="col s10"><h6 class="black-text">Blues, Classic Rock</h6></div>
+                      </div>
+                   </div>
+                 </div> 
+
+                 <div class="col s12 m4">
+                   <div class="card">
+      
+                      <div class="row">
+                         <div class="col l5"><img src={Joey} alt="Avatar" class="circle"/></div>
+                         <div class="col s5">
+                            <div class="row">
+                               <h4 class="black-text">Joey Tribbiani</h4>
+                               <h5 class="black-text">Musician/ Songwriter</h5>
+                            </div>
+                         </div>
+                      </div>
+ 
+                      <div class="row">
+                         <div class="col s2"><i class="small material-icons">play_arrow</i></div>
+                         <div class="col s10"><h6 class="black-text">Drummer</h6></div>
+                      </div>
+
+                      <div class="row">
+                         <div class="col s2"><i class="small material-icons">location_on</i></div>
+                         <div class="col s10"><h6 class="black-text">Freiburg</h6></div>
+                      </div>
+
+                      <div class="row">
+                         <div class="col s2"><i class="small material-icons">music_note</i></div>
+                         <div class="col s10"><h6 class="black-text">Blues, Classic Rock</h6></div>
+                      </div>
+                   </div>
+                 </div>
+
+                 <div class="col s12 m4">
+                   <div class="card">
+
+                      <div class="row">
+                        <div class="col l5"><img src={Joey} alt="Avatar" class="circle"/></div>
+                        <div class="col s5">
+                          <div class="row">
+                            <h4 class="black-text">Joey Tribbiani</h4>
+                            <h5 class="black-text">Musician/ Songwriter</h5>
+                          </div>
+                        </div>
+                      </div>
+ 
+                      <div class="row">
+                          <div class="col s2"><i class="small material-icons">play_arrow</i></div>
+                          <div class="col s10"><h6 class="black-text">Drummer</h6></div>
+                       </div>
+
+                      <div class="row">
+                          <div class="col s2"><i class="small material-icons">location_on</i></div>
+                          <div class="col s10"><h6 class="black-text">Freiburg</h6></div>
+                      </div>
+
+                      <div class="row">
+                          <div class="col s2"><i class="small material-icons">music_note</i></div>
+                          <div class="col s10"><h6 class="black-text">Blues, Classic Rock</h6></div>
+                      </div>
+                  </div>
+                 </div>     
+
+      
+                 <div class="col s12 m4">
+                   <div class="card">
+      
+                      <div class="row">
+                         <div class="col l5"><img src={Joey} alt="Avatar" class="circle"/></div>
+                         <div class="col s5">
+                           <div class="row">
+                              <h4 class="black-text">Joey Tribbiani</h4>
+                              <h5 class="black-text">Musician/ Songwriter</h5>
+                           </div>
+                         </div>
+                      </div>
+ 
+                      <div class="row">
+                         <div class="col s2"><i class="small material-icons">play_arrow</i></div>
+                         <div class="col s10"><h6 class="black-text">Drummer</h6></div>
+                      </div>
+
+                      <div class="row">
+                         <div class="col s2"><i class="small material-icons">location_on</i></div>
+                         <div class="col s10"><h6 class="black-text">Freiburg</h6></div>
+                      </div>
+
+                      <div class="row">
+                         <div class="col s2"><i class="small material-icons">music_note</i></div>
+                         <div class="col s10"><h6 class="black-text">Blues, Classic Rock</h6></div>
+                      </div>
+                   </div>
+                 </div> 
+
+                 <div class="col s12 m4">
+                   <div class="card">
+      
+                      <div class="row">
+                         <div class="col l5"><img src={Joey} alt="Avatar" class="circle"/></div>
+                         <div class="col s5">
+                            <div class="row">
+                               <h4 class="black-text">Joey Tribbiani</h4>
+                               <h5 class="black-text">Musician/ Songwriter</h5>
+                            </div>
+                         </div>
+                      </div>
+ 
+                      <div class="row">
+                         <div class="col s2"><i class="small material-icons">play_arrow</i></div>
+                         <div class="col s10"><h6 class="black-text">Drummer</h6></div>
+                      </div>
+
+                      <div class="row">
+                         <div class="col s2"><i class="small material-icons">location_on</i></div>
+                         <div class="col s10"><h6 class="black-text">Freiburg</h6></div>
+                      </div>
+
+                      <div class="row">
+                         <div class="col s2"><i class="small material-icons">music_note</i></div>
+                         <div class="col s10"><h6 class="black-text">Blues, Classic Rock</h6></div>
+                      </div>
+                   </div>
+                 </div>
+
+
+
+               </div>
+            </div>
         </div>
 
         
