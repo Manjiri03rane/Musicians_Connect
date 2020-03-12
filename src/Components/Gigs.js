@@ -1,9 +1,12 @@
 import React from 'react';
 import Gig1 from './img/Gig1.jpg';
+import Gig2 from './img/Gig2.jpg';
+import Gig3 from './img/Gig3.jpg';
 
 const Gigs = () => {
      return(
         <div >
+        <div class="row">
             <div class="row">
                  <div class="col s3"> 
                   <h5>Filters</h5> 
@@ -54,7 +57,7 @@ const Gigs = () => {
                    <div class="col s1">12</div>
                  </div> 
 
-                 <div class="row"><h5 class="black-text">An Evening with Whitney - The Whitney Houston Hologram Tour</h5></div>
+                 <div class="row"><div class="col s12 m10"><h5 class="black-text">An Evening with Whitney - The Whitney Houston Hologram Tour</h5></div></div>
                  <div class="row">
                      <div class="col s12 m7">
                          <p>Location: Old Town, Cologne</p>
@@ -73,33 +76,33 @@ const Gigs = () => {
                   </div>
 
                   <div class="card">
-                 <div class="row"><h5 class="black-text">An Evening with Whitney - The Whitney Houston Hologram Tour</h5></div>
+                 <div class="row"><h5 class="black-text">British Music Experience</h5></div>
                  <div class="row">
                      <div class="col s12 m7">
-                         <p>Location: Old Town, Cologne</p>
-                         <p>Date: 13.03.2020</p>
-                         <p>DRUMMER WANTED</p>
+                         <p>Location: ReeparBahn, Hamburg</p>
+                         <p>Date: 17.03.2020</p>
+                         <p>LEAD VOCALS WANTED</p>
                          <p>Permanent drummer needed for upcoming tour, album and single release. Must be dedicated and available...….</p>
                          <p>Part time</p>
                      </div>
                      <div class="col s12 m5">
-                     <img src={Gig1} alt="Gig Image"/>
+                     <img src={Gig2} alt="Gig Image"/>
                      </div>
                  </div>
                  </div>
 
                  <div class="card">
-                 <div class="row"><h5 class="black-text">An Evening with Whitney - The Whitney Houston Hologram Tour</h5></div>
+                 <div class="row"><h5 class="black-text">School of Rock Germany Tour 2020</h5></div>
                  <div class="row">
                      <div class="col s12 m7">
-                         <p>Location: Old Town, Cologne</p>
-                         <p>Date: 13.03.2020</p>
-                         <p>DRUMMER WANTED</p>
+                         <p>Location: Rottenbur, Bavaria</p>
+                         <p>Date: 21.03.2020</p>
+                         <p>SAXOPHONE/CLARINET PLAYER WANTED</p>
                          <p>Permanent drummer needed for upcoming tour, album and single release. Must be dedicated and available...….</p>
                          <p>Part time</p>
                      </div>
                      <div class="col s12 m5">
-                     <img src={Gig1} alt="Gig Image"/>
+                     <img src={Gig3} alt="Gig Image"/>
                      </div>
                  </div>
                  </div>
@@ -130,6 +133,8 @@ const Gigs = () => {
 
                </div>
             </div>
+            </div>
+
         </div>
 
         

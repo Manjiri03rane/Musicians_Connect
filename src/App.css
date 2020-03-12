@@ -62,7 +62,7 @@
   background-color: #081D58;
 }
 
-.row .col.s9 {
+.row .row .col.s9 {
   width: 75%;
   margin-left: auto;
   left: auto;
@@ -71,7 +71,7 @@
   height: 1500px;
 }
 
-.row .col.s3 {
+.row .row .col.s3 {
   width: 25%;
   margin-left: auto;
   left: auto;
