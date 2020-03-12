@@ -3,6 +3,7 @@ import React from 'react';
 const Artist = () => {
     return(
         <div >
+           <div class="row">
             <div class="row">
                  <div class="col s3"> 
                   <h5>Filters</h5> 
@@ -37,6 +38,7 @@ const Artist = () => {
                  </div>
       
              </div>
+          </div>  
     
         </div>
 
