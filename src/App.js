@@ -1,29 +1,34 @@
 import React from 'react';
 import './App.css';
 import Navbar from './Components/Navbar'
-import {Route, Switch} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 import Home from './Components/Home';
 import Artist from './Components/Artist';
 import Gigs from './Components/Gigs';
 import Community from './Components/Community';
-import Home1 from './Components/Home1';
-import Home2 from './Components/Home2';
+import Footer from './Components/Footer';
+
 
 
 
 
 function App() {
   return (
-    <Switch>
+    <Router>
     <div className="App" >
+   
     <Navbar />
     <Route exact path='/' component={Home} />
     <Route path='/Artist' component={Artist} />
     <Route path='/Gigs' component={Gigs} />
     <Route path='/Community' component={Community}/>
+    <Route path='/Footer' component={Footer}/>
+
+    <Footer/>
+
     </div>
-    </Switch> 
+    </Router>
     
       
     

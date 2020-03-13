@@ -7,12 +7,13 @@ import aa5 from './img/aa5.jpg';
 import aa7 from './img/aa7.jpg';
 import c1 from  './img/c1.jpg';
 import c2 from  './img/c2.jpg';
-import c3 from  './img/c3.jpg';
+import c3 from  './img/c3.jpg'; 
 import c4 from  './img/c4.jpg';
 import c5 from  './img/c5.jpg';
 import c6 from  './img/c6.jpg';
 import Img1 from './img/Img1.jpg';
 import { render } from 'react-dom';
+import {NavLink} from 'react-router-dom';
 
 
 class Home extends Component {
@@ -71,7 +72,8 @@ render(){
        <h4  class="black-text left-align">From an instrument player to a sound engineer, you will find many talented artists on this website. 
        You can either use the above search filter or simply click on the below button to view the all the artists registered on this website. 
     </h4>
-     <button class="btn  left-align waves">View All Artist</button>
+    <NavLink to="/Artist"><button class="btn  left-align waves">View All Artist</button></NavLink>
+     
       </div>
     </div>
     <div class="col s4">
@@ -101,13 +103,8 @@ render(){
                       <span class="card-title"></span>
                         </div>
                               <div class="card-content">
-                              <p>I am a very simple card. I am good at containing small bits of information.
-                                       I am convenient because I require little markup to use effectively.</p>
                               </div>
-                            <div class="card-action">
-                                  <a href="#">This is a link</a>
                             </div>
-                 </div>
       </div>
     <div class="carousel-item  white-text" href="#two!">
     <div class="card">
@@ -116,56 +113,41 @@ render(){
                       <span class="card-title"></span>
                         </div>
                               <div class="card-content">
-                              <p>I am a very simple card. I am good at containing small bits of information.
-                                       I am convenient because I require little markup to use effectively.</p>
                               </div>
-                            <div class="card-action">
-                                  <a href="#">This is a link</a>
                             </div>
-                 </div>
       </div>
     <div class="carousel-item  white-text" href="#three!">
     <div class="card">
-                        <div class="card-image ">
+                        <div class="abc ">
                           <img src={aa6}></img>
                       <span class="card-title"></span>
                         </div>
                               <div class="card-content">
-                              <p>I am a very simple card. I am good at containing small bits of information.
-                                       I am convenient because I require little markup to use effectively.</p>
                               </div>
-                            <div class="card-action">
-                                  <a href="#">This is a link</a>
                             </div>
-                 </div>
-      
+      </div>
     </div>
     </div>
+    <NavLink to="/Gigs"><button class="btn  left-align waves">View All Gigs</button></NavLink>
     </div>
-    </div>
-
-
-  </div>
+</div>
         
-    
-
-
- <div class="row">
+    <div class="row">
     <div class="col1 s12">
       <div class="card-panel teal">
       <h3 class="center-align">Community</h3>
           <div class="rowin2">
             <div class="col s6">
             <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                   <img  src={aa1}></img>
+                <div class="card-image ">
+                   <img className="materialboxed" width="50%" src={aa1}></img>
                 </div>
-                <button class="btn left-align waves-effect">Create a Community</button>
+                <button  class="btn left-align waves-effect">Create a Community</button>
               </div>
             </div>
             <div class="col s6">
             <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
+                <div class="card-image ">
                    <img  src={aa2}></img>
                 </div>
                 <button class="btn left-align waves-effect">Join a Community</button>
@@ -283,7 +265,7 @@ suggestions or queries. </h6>
       </div>
     </a>
     <a class="carousel-item" href="#five!">
-    <div class="card1">
+    <div class="card0">
         <div class="card-image">
         <img src={c5} class="circle responsive-img"/>
           {/* <span class="card-title">Card Title</span> */}
@@ -334,4 +316,4 @@ suggestions or queries. </h6>
     }
     
 }
-export default Home;
+export default Home
